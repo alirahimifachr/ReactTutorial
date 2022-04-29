@@ -14,6 +14,9 @@ const Layout = () => {
                     <li>
                         <Link to="/testUseCallback">TestUseCallback</Link>
                     </li>
+                    <li>
+                        <Link to="/testUseContext">TestUseContext</Link>
+                    </li>
                 </ul>
             </nav>
 
