@@ -20,6 +20,9 @@ const Layout = () => {
                     <li>
                         <Link to="/testUseReducer">TestUseReducer</Link>
                     </li>
+                    <li>
+                        <Link to="/testUseRef">TestUseRef</Link>
+                    </li>
                 </ul>
             </nav>
 
