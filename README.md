@@ -15,6 +15,7 @@ some basic of React's Logic
 + useEffect  
 + useCallback  
 + useContext  
++ useReducer  
 
 > difference between useCallback and UseMemo:  
 useCallback gives you referential equality between renders for functions. And useMemo gives you referential equality between renders for values. useCallback and useMemo both expect a function and an array of dependencies.

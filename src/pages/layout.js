@@ -17,6 +17,9 @@ const Layout = () => {
                     <li>
                         <Link to="/testUseContext">TestUseContext</Link>
                     </li>
+                    <li>
+                        <Link to="/testUseReducer">TestUseReducer</Link>
+                    </li>
                 </ul>
             </nav>
 

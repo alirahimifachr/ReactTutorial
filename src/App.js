@@ -4,6 +4,7 @@ import TestUseMemo from "./pages/testUseMemo";
 import TestUseEffect from "./pages/testUseEffect";
 import TestUseCallback from "./pages/testUseCallback";
 import TestUseContext from "./pages/testUseContext";
+import TestUseReducer from "./pages/testUseReducer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="testUseEffect" element={<TestUseEffect />} />
             <Route path="testUseCallback" element={<TestUseCallback />} />
             <Route path="testUseContext" element={<TestUseContext />} />
+            <Route path="testUseReducer" element={<TestUseReducer />} />
           </Route>
         </Routes>
       </BrowserRouter>
