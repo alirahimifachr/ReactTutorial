@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/layout";
 import TestUseMemo from "./pages/testUseMemo";
 import TestUseEffect from "./pages/testUseEffect";
+import TestUseCallback from "./pages/testUseCallback";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<TestUseMemo />} />
             <Route path="testUseEffect" element={<TestUseEffect />} />
+            <Route path="testUseCallback" element={<TestUseCallback />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -11,6 +11,9 @@ const Layout = () => {
                     <li>
                         <Link to="/testUseEffect">TestUseEffect</Link>
                     </li>
+                    <li>
+                        <Link to="/testUseCallback">TestUseCallback</Link>
+                    </li>
                 </ul>
             </nav>
 
