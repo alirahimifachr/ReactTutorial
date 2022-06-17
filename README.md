@@ -23,5 +23,3 @@ useCallback gives you referential equality between renders for functions. And us
 The difference is that useCallback returns its function when the dependencies change while
 useMemo calls its function and returns the result.  
 
-> ScreenShot from Tutorial, all of Contents
-![image](screenshot.png)  
