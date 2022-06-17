@@ -37,6 +37,10 @@ function TestUseReducer() {
 
     return (
         <>
+            <div> The reducer function contains your custom state logic and the initialState can be a simple value but generally will contain an object.
+                The useReducer Hook returns the current state and a dispatch method.
+            </div>
+            <br></br>
             {todos.map((todo) => (
                 <div key={todo.id}>
                     <label>

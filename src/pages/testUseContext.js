@@ -18,6 +18,8 @@ function TestUseContext() {
 
     return (
         <div>
+            <div> React Context is a way to manage state globally. It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.</div>
+            <br></br>
             <UserContext.Provider value={user}>
                 <h1>{`Hello ${user}!`}</h1>
                 <Component2 user={user} />
